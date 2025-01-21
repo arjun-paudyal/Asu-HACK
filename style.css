@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #aaa;
+    font-family: "Arial", "Helvetica", sans-serif;
+    width: 720px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 395px;
+
+}
+
+.head h1 {
+    background: #79c;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 1em;
+    max-height: 2em;
+    overflow: hidden;
+}
+
+nav ul {
+    border-bottom: 2px solid #fff;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav {
+    background: #aaa;
+    margin: 0 2px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+
+}
+
+nav ul li {
+    width: 16%;
+    width: 118.8px;
+    list-style: none;
+    float: left;
+    text-align: center;
+
+}
+
+nav ul li a {
+    display: block;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #fff;
+    text-decoration: none;
+    color: black;
+    padding: 4px 16px;
+    margin: 2px;
+}
+nav ul li a:active {
+    border-top: 2px solid #000;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #000;
+  }
+  
+  nav ul li a.disabled:active {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #fff;
+  }
+
+nav ul li a span {
+    text-decoration: underline;
+}
+
+.head1 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.head1 h1 {
+    margin-top: 20px;
+}
+
+.hackhack1 {
+    margin-top: 6px;
+}
+
+.hackhack2 {
+   margin-top: 20px;
+}
+
+.mainimg img {
+    height: 200px;
+    margin-top: 22px;
+    margin-left: -5px;
+}
+.head1 p{
+    line-height: 25px;
+}
+.footer{
+    background-color: #79c;
+    color: #79c;
+    line-height: 18px;
+    margin-left: -35px;
+    margin-right: -35px;
+}
+
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    nav ul li {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 12px;
+    }
+
+    .mainimg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .head1 h1 {
+        font-size: 1.5em;
+    }
+   
+
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    .mainimg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .head1 h1 {
+        font-size: 1.2em;
+    }
+
+    .hackhack1,
+    .hackhack2 {
+        font-size: 0.9em;
+    }
+ 
+ 
+}
+.about h1{
+     font-size: 25px;
+}
+#post123{
+    display: flex;
+    gap: 10px;
+}
+.postopt1{
+    display: flex;
+    flex-direction: column;
+    width: 33em;
+    border-top: 1px solid #efe8e8;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #fff;
+    height: 165px;
+    border: none;
+    
+    
+}
+.postopt1 button{
+    line-height: 30px;
+    background: none;
+}
+.postopt1 button a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 10px;
+}
+.postopt2 p{
+    line-height: 35px;
+    font-weight: 500;
+}
